@@ -1,0 +1,13 @@
+extend layout 
+
+block content 
+    <form method="POST" action="/new">
+        <p>Author Name </p>
+        <input type="text" name="author" />
+        <p>Your message </p>
+        <input type="text" name="message" />
+        <button type="submit">Submit</button>
+    </form>
+    br
+    a(class='button' href='/') Back
+    

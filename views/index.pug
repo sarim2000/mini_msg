@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  for i in messages
+    for j in i 
+      p=j
+    br
+  a(class='button' href='/new') Add user
